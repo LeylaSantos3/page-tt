@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  background-color: white; 
+  color:black;
+  font-size: 14px;
+ 
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #14171A;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  background-color: 000;
+  color: black;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  
+
+}
+
+.logo {
+  width: 20%;
+  margin-bottom: 100px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  border: 2px solid #E6E4E4;
+  font-size: 14px; 
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color: white;
+  color: #6D7378;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn .icon {
+  width: 20px;
+  height: auto;
+  margin-right: 8px;
+}
+
+.btn:hover {
+  transform: translate(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.google {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  
+}
+
+.apple {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+ 
+}
+
+.create-account {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20pxpx 0;
+  margin-bottom: 15px;
+}
+
+.line {
+  flex: 1;
+  border-top: 1px solid gray;
+  height: 1px;
+}
+
+.text {
+  margin: 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+}
+
+.terms, .login {
+  font-size: 12px;
+  margin-top: 10px;
+  color: gray;
+
+}
+a {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
